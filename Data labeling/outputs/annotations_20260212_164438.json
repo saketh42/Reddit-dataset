@@ -1,0 +1,280 @@
+[
+  {
+    "post_metadata": {
+      "post_id": "1qr84dk",
+      "subreddit": "Scams",
+      "title": "Gravity Transformation six week shred review",
+      "body": "I\u2019m sharing this to help others make an informed decision. The Gravity Transformation six week shred is advertised as free, with payment refunded only if you lose twenty pounds or five percent body fat within six weeks. While that may be achievable for some people, it is not realistic for many bodies, particularly for those managing mobility limitations, menopause related changes, chronic pain, or other health considerations, despite the program being marketed as for everyone.",
+      "num_comments": 2
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "website",
+        "victim_action": "clicked_link",
+        "request_type": "none",
+        "impersonated_entity": "none",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 2,
+        "scam_confirmations": 0,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The post is a review of a weight loss program and does not mention any fraudulent activity.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  {
+    "post_metadata": {
+      "post_id": "1qr6loc",
+      "subreddit": "Scams",
+      "title": "Loan - phone harassment - scam.",
+      "body": "Every day, for the past 3 month I have been getting phone calls from spoofed numbers. This goes to my private number. They lave a voice mail for me to call them back at a toll free number about a loan $50-70k. I am reporting them to both Better Business Bureau scams and DoNotCall.gov. I have called them back multiple times, told them that I am not interested in the loan and want them to stop calling me. I have asked around on local social media, Philly and Suburbs and overwhelming large amount of people said \"Me To, it's very annoying.\". Can Cyber Harassment charges be brought against them, because fines don't seem to help ?",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 1,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "phone",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "none",
+        "amount_mentioned": "$50-70k",
+        "currency": "unknown",
+        "urgency_level": 1.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 9,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "Multiple people reporting the same scam and victim story",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  {
+    "post_metadata": {
+      "post_id": "1qr6ixx",
+      "subreddit": "Scams",
+      "title": "Mail with name I\u2019ve never heard of sent to my address. Mistake or scam?",
+      "body": "so I'm the original owner of my home. I received what appears to be a junk mail insurance advertisement of sorts. it has my address, but the name of someone I don't know, and has never been associated with my property.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "email",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 1,
+        "not_scam_claims": 4,
+        "advice_requests": 2
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "Unknown payment method and fraud channel.",
+        "uncertainty_notes": ""
+      }
+    }
+  },
+  {
+    "post_metadata": {
+      "post_id": "1qr5y43",
+      "subreddit": "Scams",
+      "title": "Facebook Marketplace scam",
+      "body": "Hi all, I recently went through a tough breakup and impulsively decided that I wanted a Steam deck, a kind of game console, to cheer me up. I found one facebook marketplace secondhand for \u20ac250 so I messaged the seller. I did at the start believe it was too good to be true, but after the seller sent videos of the item and the next day had it in a package from my countries post, with a receipt that at the time looked legit to me, I thought I just got it from someone who was oblivious of how much it was really worth. After I sent the money he \u2018sent it\u2018 but then texted 10 minutes later to say his wife didn't agree on the price and that I should pay another \u20ac70. I left his messages on delivered as in my eyes it was already in the post, but after 4 days of waiting for it to arrive I sent another message to ask If there was a tracking number. He then said that his wife had called the post and halted the package until I payed more. I obviously declined again and said I would get in contact with the police If it wasn\u2019t sent, and asked for my money back otherwise. I got no reply. I went into the post office and found out that the receipt was forged, so got in contact with the police and my bank to see if anything could be done about it. The bank said I was at fault, but that if there was any money in the account that I would receive it in the next 15 days. It\u2019s been roughly 14 days since, and I haven't gotten any money back. No word from the police either.",
+      "num_comments": 20
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "commerce",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 1,
+        "commerce_fake_seller": 1,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "sms",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "none",
+        "amount_mentioned": 250,
+        "currency": "EUR",
+        "urgency_level": 1.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 20,
+        "scam_confirmations": 15,
+        "not_scam_claims": 5,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": null
+      },
+      "reasoning": {
+        "primary_evidence": "The seller sent a fake receipt and the package was halted by the post office after the victim paid more money.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  {
+    "post_metadata": {
+      "post_id": "1qr5kq7",
+      "subreddit": "Scams",
+      "title": "Nearly got scammed by a VERY convincing phonecall [USA]",
+      "body": "The restaurant I work at got a phonecall yesterday by a man who said he was a US Marshall. He told me someone working there was doing a counterfeiting operation and that the restaurant was about to be raided and that person would be arrested. He sounded like a cop, mid 50s with a white southern accent. He told me I can't talk to anyone else at the restaurant or the person could flee.  He knew the names of the restaurant owners, and even had one of the owners 'call' me. His number popped up on my phone but I was told not to pick up, but just to confirm that I was getting a call from the owner, 'Joe'. This man knew a lot of inside information about where and how our money was kept, and mentioned both Joe's name and the other owner's name without me saying it first. He spoke very quickly and officially, totally convincing police patter, and acted like he was on the other end of organizing this raid that was about to happen. He asked a lot official sounding boiler-plate questions, and told me to turn off the Bluetooth and wifi from my phone, and was very specific about instructions that sounded very official.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "social_engineering",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 1,
+        "social_urgency_scam": 1,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "phone",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "US Marshall",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 1.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 2,
+        "not_scam_claims": 0,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The man claimed to be a US Marshall and had inside information about the restaurant's operations.",
+        "uncertainty_notes": "The post does not mention any specific evidence of fraud, such as a suspicious transaction or a fake email."
+      }
+    }
+  }
+]
