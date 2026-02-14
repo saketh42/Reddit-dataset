@@ -27,7 +27,7 @@ COMMENTS_FILE = os.path.join(BASE_DIR, "comments.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3"
+MODEL_NAME = "mistral:7b-instruct-q5_K_M"
 
 
 REQUESTS_PER_MIN = 25

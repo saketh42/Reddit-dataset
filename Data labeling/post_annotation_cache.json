@@ -34916,5 +34916,1597 @@
         "uncertainty_notes": null
       }
     }
+  },
+  "v4_currency_fix:1qb2dhz": {
+    "post_metadata": {
+      "post_id": "1qb2dhz",
+      "subreddit": "Scams",
+      "title": "Not sure if this is a scam (phishing?)",
+      "body": "Hello! A strange thing has happened: vehicle insurance folks all of a sudden started texting and calling (several different companies) about coverage for my newly acquired Mercedes. Thing is, I didn't acquire a Mercedes - ever. I haven't bought a car of any kind in over a decade. I insure 3 cars but none are new to me. I even got a coverage offer in the mail for this phantom car.    I checked my credit, which is frozen and has been for years; everything looks normal.      Is this some phishing scam where suddenly dozens of potential service providers hope you'll give them personal information, even if the conversation starts, 'you have the wrong person, number, and address, I don't have a Mercedes'?      I have DeleteMe, too, so you think this kind of thing would be more difficult for folks. ",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "sms",
+        "victim_action": "none",
+        "request_type": "unknown",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 2,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "Multiple insurance companies contacted the user about a non-existent Mercedes.",
+        "uncertainty_notes": ""
+      }
+    }
+  },
+  "v4_currency_fix:1qml304": {
+    "post_metadata": {
+      "post_id": "1qml304",
+      "subreddit": "Scams",
+      "title": "Romance Scams - Showing us who our family members really are",
+      "body": "I've been dealing with a family member caught up in a romance scam. I've given up at this point and cut contact. It got me thinking though, these romance scammers are showing us who our family members really are, and it's not pretty.    - Willing to do ANYTHING for their 'partner' and NO ONE is off limits    - Greed: Lusting after a fictitious Swiss bank account that their 'partner' supposedly has    - Putting a 'partner' above their family and own well being.    No one is holding a gun to their head. They are adults. They are CHOOSING to do this. There has to be an element of personal responsibility and accountability. I hold these 'victims' fully accountable for what they are doing to themselves and their family members.    Even if the 'partner' was real, they are showing us they aren't the loving, caring people we thought they were.    It's really sad, but in a way these romance scammers are showing us who some of our family members really are.",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "unknown",
+        "victim_action": "unknown",
+        "request_type": "unknown",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "low",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "",
+        "uncertainty_notes": ""
+      }
+    }
+  },
+  "v4_currency_fix:1kl3t4f": {
+    "post_metadata": {
+      "post_id": "1kl3t4f",
+      "subreddit": "FraudPrevention",
+      "title": "FraudWatch Bulletin",
+      "body": "Hi Fraud Fighters -     I'm excited to announce the launch of **FraudWatch Bulletin** \u2014 your go-to newsletter for staying ahead of the latest fraud trends, scams, and security tips. Whether you're in compliance, risk management, or just want to stay informed, this is for you.    Subscribe now to get sharp insights, real case breakdowns, and practical advice delivered straight to your inbox: [https://michaels-newsletter-107036.beehiiv.com/p/fraudwatch-bulletin](https://michaels-newsletter-107036.beehiiv.com/p/fraudwatch-bulletin)    Stay smart. Stay secure. Stay one step ahead.    \n#FraudWatch #Newsletter #FraudPrevention",
+      "num_comments": 1
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi | card | bank | crypto | gift_card | unknown | none",
+        "fraud_channel": "sms | email | phone | social_media | website | app | unknown | none",
+        "victim_action": "sent_money | shared_credentials | clicked_link | installed_app | none | unknown",
+        "request_type": "payment | verification | login | download | none | unknown",
+        "impersonated_entity": "bank | government | company | individual | none | unknown",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 1,
+        "scam_confirmations": 0,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "Hi Fraud Fighters -     I'm excited to announce the launch of **FraudWatch Bulletin** \u2014 your go-to newsletter for staying ahead of the latest fraud trends, scams, and security tips. Whether you're in compliance, risk management, or just want to stay informed, this is for you.    Subscribe now to get sharp insights, real case breakdowns, and practical advice delivered straight to your inbox: [https://michaels-newsletter-107036.beehiiv.com/p/fraudwatch-bulletin](https://michaels-newsletter-107036.beehiiv.com/p/fraudwatch-bulletin)",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1q8d8l3": {
+    "post_metadata": {
+      "post_id": "1q8d8l3",
+      "subreddit": "Scams",
+      "title": "(CAD) Romance scam - dad met woman on online gaming app",
+      "body": "So - my dad plays an online game called 'guns of glory'. He has no social life or friends and my mom passed away last year so I know he's probably the perfect person to fall for a romance scam. I'm going to write out the details and I'm hoping someone can give me advice on what to do &amp; how scammy it sounds!    They met on a game. They play together all the time, and they also talk off the game now (on 'line' and WhatsApp, and they play NYT games together, etc). She lives in Singapore, he lives in Canada. She's early 30s, he's early 60s. Apparently she's flying to Australia for a vacation and invited my dad to join her. So, my dad is flying to Australia lol. They have a hotel booked (I'm 80% sure she booked it and he's supposed to pay her back for his half). It has two rooms because they've decided to keep their relationship platonic due to 'age differences and location differences'.    So, it's supposed to be just two people going on a trip together? lol.   I'm not very close with my dad so I don't really want to pry. I more of said to be careful for the general red flags (asking for money in any capacity, talking about finances or investing, suddenly not being able to meet up bc a flight was cancelled, etc). I have the info of his flight &amp; where he's staying &amp; a picture of his passport, lol. I did my best to cover my bases without taking it all on.     In short - what kind of scam do you think this could be?     Do you think it would be more of a 'sugar daddy' si",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "email",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "none",
+        "amount_mentioned": null,
+        "currency": "CAD",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 3,
+        "not_scam_claims": 2,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The victim's dad is sending money to a fraudulent account",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qkrv4u": {
+    "post_metadata": {
+      "post_id": "1qkrv4u",
+      "subreddit": "IsThisAScamIndia",
+      "title": "Sbi apk scam??",
+      "body": "My friend is the admin of this group but some unknown guy posted this today. I was suspixious the above post and didnt download the apk and left the group. This is a shady link/apk right??",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 1,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi",
+        "fraud_channel": "unknown",
+        "victim_action": "installed_app",
+        "request_type": "download",
+        "impersonated_entity": "bank",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.9
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 4,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.9
+      },
+      "reasoning": {
+        "primary_evidence": "unknown guy posted shady link/apk",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qflcuy": {
+    "post_metadata": {
+      "post_id": "1qflcuy",
+      "subreddit": "LegalAdviceIndia",
+      "title": "Cross-Border Contract Dispute (UK Contractor, India Client), No Service, Refund Not Received, Suspected Fraud, What Next?",
+      "body": "Hi, looking for advice on a cross-border legal issue.    We're a business based in India. We hired a UK-based, UK-registered contractor to deliver 5 confirmed clients. This was clearly written into the contract.    What happened instead:    Not even one call was booked and our two months completely wasted    The contract says a full refund within 7 days if targets aren't met.    That deadline passed.    He now claims the refund was sent via bank transfer.    It's been 5+ days, and our bank (Wise) has confirmed nothing was received.    No proper bank proof has been shared.    At this point, we've lost two months, received zero service, and still don't have our money back. This now feels like intentional misrepresentation or fraud, not just a delay.    We have the contract, written communication, and bank confirmation.    Questions:    What should our next step be?    Should we send a legal notice / demand letter first?    Should this be pursued in the UK or India?    Can we claim more than just the refund, given the breach and time lost?    Any guidance would really help. Thanks :')    TL;DR    India-based business hired a UK contractor. Zero calls delivered, two months wasted. Refund promised but never received, bank confirms nothing came. What do we do next?",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "commerce_nondelivery",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 1,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "email",
+        "victim_action": "none",
+        "request_type": "payment",
+        "impersonated_entity": "company",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 2,
+        "not_scam_claims": 8,
+        "advice_requests": 5
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "contract, written communication, bank confirmation",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1q2tds9": {
+    "post_metadata": {
+      "post_id": "1q2tds9",
+      "subreddit": "phishing",
+      "title": "What is this? Does this actually work?",
+      "body": "I often receive these phishing emails. The text is complete gibberish. The sender is spelled 'Xf\u03b9n\u03b9\u00edty', and the link takes you to sk8sw<gt>meyer-europe<eu> (dots replaced with tildas so it doesn't create an actual link). Do emails like this ever work? Does anyone actually click on the link?    https://preview.redd.it/9tu4fntpn4bg1.png?width=590&amp;format=png&amp;auto=webp&amp;s=eef8ee6604cf9f6fdefa31badda11ad5a25e54eb",
+      "num_comments": 4
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "email",
+        "victim_action": "clicked_link",
+        "request_type": "none",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 4,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "low",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "",
+        "uncertainty_notes": ""
+      }
+    }
+  },
+  "v4_currency_fix:1q5ic84": {
+    "post_metadata": {
+      "post_id": "1q5ic84",
+      "subreddit": "Scams",
+      "title": "Scam while traveling? (Fake Williams Sonoma purchase)",
+      "body": "Was traveling for a short road trip yesterday.     It was an out and back trip, so we went through a few towns twice.     Got gas and food in the town where the possible scam is taking place.     Did not log into any emails or apps or give any emails to anyone while traveling.     Woke up to a 'Williams Sonoma' purchase with my last name used as the persons middle name, but the last four of the credit card isn't mine, the address is a town that we traveled through and got food and gas.     The email came from @e.williams-sonoma.com    The only parts of the info that are connected to me are the email address and the last name being used as the middle name for the order.     Checked all my accounts, no pending charges anywhere.",
+      "num_comments": 4
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "card",
+        "fraud_channel": "email",
+        "victim_action": "clicked_link",
+        "request_type": "transaction",
+        "impersonated_entity": "company",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0.0,
+        "fear": 0.0,
+        "authority": 1.0,
+        "reward": 0.0
+      },
+      "community_signals": {
+        "num_comments": 4,
+        "scam_confirmations": 2,
+        "not_scam_claims": 0,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "Williams Sonoma purchase with incorrect last name",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qa4x7z": {
+    "post_metadata": {
+      "post_id": "1qa4x7z",
+      "subreddit": "IsThisAScamIndia",
+      "title": "It's 10.40pm, I got bombarded with opts from multiple apps and then also got a call from Ekart",
+      "body": "I've not clicked on any suspicious links or visited any unknown website recently, I've not opened any of those sms messages for otp and neither did I pick up the call. What do I   Do now, there hasn't been any transaction from any of my accounts either\u2026 recieved around 12-15 OTPS from Swiggy zepto blinkit some financial app which I've not heard. What do I do now. Those messages started comming and then stopped in about a Minuit",
+      "num_comments": 7
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi",
+        "fraud_channel": "sms",
+        "victim_action": "none",
+        "request_type": "unknown",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 7,
+        "scam_confirmations": 2,
+        "not_scam_claims": 3,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "Received multiple OTPs from unknown apps and got a call from Ekart",
+        "uncertainty_notes": "No evidence of fraudulent transactions or stolen credentials"
+      }
+    }
+  },
+  "v4_currency_fix:1qojw4p": {
+    "post_metadata": {
+      "post_id": "1qojw4p",
+      "subreddit": "Scams",
+      "title": "IT Amazon package that i didnt ordered asked for code?",
+      "body": "hello, im trying to understand what happened here. this morning i received an amazon delivery at my name, but they were asking for a code that i dont have, and i haven't ordered anything especially high value so they took back the package. theres nothing in my amazon account and no card has been used. im just confused, anyone know what could be the deal here?",
+      "num_comments": 2
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.5,
+      "fraud_type": "commerce",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 1,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi",
+        "fraud_channel": "email",
+        "victim_action": "none",
+        "request_type": "nondelivery",
+        "impersonated_entity": "Amazon",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.5
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 2,
+        "scam_confirmations": 1,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.5
+      },
+      "reasoning": {
+        "primary_evidence": "Amazon delivery with code request",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qrdu20": {
+    "post_metadata": {
+      "post_id": "1qrdu20",
+      "subreddit": "CryptoScams",
+      "title": "Possible Scam",
+      "body": "Hello    Does anyone of you know the traiding Plattform tokenzoom?    I had some good profits on it but as soon as i wanted to withdraw it the plattform wanted 0.34% tax on my profits.    After i paid it they told me im suspected in Money- laundering because the last payment i did was from another account. Now they want me to pay that again from my Account to make Sure its Not Money laundering.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_card_fraud": 1,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "card",
+        "fraud_channel": "website",
+        "victim_action": "paid",
+        "request_type": "tax",
+        "impersonated_entity": "trading platform",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 4,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The trading platform demanded a tax on profits and then accused the user of money laundering.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qcj1dn": {
+    "post_metadata": {
+      "post_id": "1qcj1dn",
+      "subreddit": "IsThisAScamIndia",
+      "title": "I fell for a scam!!!",
+      "body": "nan",
+      "num_comments": 4
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 1,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi",
+        "fraud_channel": "sms",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "bank",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 4,
+        "scam_confirmations": 2,
+        "not_scam_claims": 0,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The post describes a scam involving UPI fraud and the victim sent money to an impersonated bank account.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qbka42": {
+    "post_metadata": {
+      "post_id": "1qbka42",
+      "subreddit": "IsThisAScamIndia",
+      "title": "HDFC Ergo denying cashless ACL surgery calling it 'possibly pre-existing'. What should I do?",
+      "body": "Hi everyone, posting anonymously and genuinely looking for advice.    I took a health insurance policy in Aug 2025. I had no knee issues ever and was physically active after policy start (hiking, playing badminton, dancing regularly).    On 28 Nov 2025, I had a clear accidental injury while dancing at a family function. There was a slip, twist, and popping sound in the knee. Pain and difficulty walking started immediately. I saw a doctor the next day and MRI (done after the injury) showed a complete ACL tear with meniscus tear. Multiple surgeons have advised surgery.    When I applied for cashless hospitalization, HDFC Ergo denied it saying:    'Possibility of the present ailment being pre-existing cannot be ruled out'    They are applying a 2-year waiting period, but they have not shown any document, report, or prior medical history proving this was pre-existing. I submitted explanations, doctor notes, and a declaration stating no prior issues, but they keep sending the same templated repudiation letter without addressing anything.    The surgery is expected to cost \u20b95 lakh+, plus 3\u20134 months of physiotherapy, which I honestly cannot afford out of pocket. I was relying on this policy for exactly such a situation.    On top of this, their customer support is extremely poor:   \u2022 No way to talk to a human, only bots   \u2022 Emails get auto-blocked unless they follow some predefined format that is not shared anywhere   \u2022 No proper response to explanations or evidence      Any guidanc",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 1,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "none",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "none",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": null,
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1q9edpj": {
+    "post_metadata": {
+      "post_id": "1q9edpj",
+      "subreddit": "Scams",
+      "title": "Energy scam in the Boston area",
+      "body": "I'm ashamed to admit it but I'm pretty sure I just got scammed. I live around the Boston area.    This man came up to my door and knocked very excitedly, I was just chilling at the time so I didn't go up immediately and took a good few minutes because in my mind if it wasn't that important they would leave. He was still there, he claimed he worked for my energy company, had a badge and everything, and thoroughly explained how my rates would probably go up and talked about this program I was in, he asked me for a bill, which I was skeptical of but he just convinced me to give him an old energy bill from our provider. He noted some stuff on his phone and got me to sign up for this provider including a signature. Idk how to explain it but her was professional enough that I didn't really question it, but some things put me off.  1. He asked me once to come in, which obviously I didn't let him.  2. At the very end he asked me if I could spare a dollar for the train???  And the way he asked both of these made it sound like he was sticking to a 'script' that included everything he was saying.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 1,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "phone",
+        "victim_action": "shared_credentials",
+        "request_type": "payment",
+        "impersonated_entity": "energy company",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 1.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 2,
+        "not_scam_claims": 0,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "victim shared energy bill and signed up for new provider",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1q85b3m": {
+    "post_metadata": {
+      "post_id": "1q85b3m",
+      "subreddit": "IsThisAScamIndia",
+      "title": "Fake Parking Challan Scam",
+      "body": "Posting this as a warning because this just happened in Gurugram, HR and it's clearly designed to scare people into paying.  A paper slip titled 'Notice of Violation' was placed on my father's car.   This is not how traffic challans work so please don't scan these QR codes to pay.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_card_fraud": 1
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "unknown",
+        "victim_action": "none",
+        "request_type": "payment",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.9
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "A paper slip titled 'Notice of Violation' was placed on my father's car.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1lon2yu": {
+    "post_metadata": {
+      "post_id": "1lon2yu",
+      "subreddit": "ScamCenter",
+      "title": "Avoid P.E.A.K. Marketing in Boston at all costs!",
+      "body": "If anyone is in need of more information, feel free to ask me for further details.",
+      "num_comments": 1
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "unknown",
+        "victim_action": "unknown",
+        "request_type": "unknown",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 1,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "low",
+        "usable_for_training": false
+      },
+      "gan_quality": {
+        "suitable_for_gan": true,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "",
+        "uncertainty_notes": ""
+      }
+    }
+  },
+  "v4_currency_fix:1q65i2k": {
+    "post_metadata": {
+      "post_id": "1q65i2k",
+      "subreddit": "IsThisAScamIndia",
+      "title": "Fake chalan apk",
+      "body": "Fucker sent an apk claiming to be traffic chalan, I deleted it in hurry. Where to report this?",
+      "num_comments": 4
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.5,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "app",
+        "victim_action": "installed_app",
+        "request_type": "transaction",
+        "impersonated_entity": "company",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.5
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 4,
+        "scam_confirmations": 2,
+        "not_scam_claims": 0,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.5
+      },
+      "reasoning": {
+        "primary_evidence": "Fraudulent apk sent by a scammer",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qeaamr": {
+    "post_metadata": {
+      "post_id": "1qeaamr",
+      "subreddit": "Scams",
+      "title": "Thank you /r/scams for teaching me about pig butchering. I almost fell for one off Tinder.",
+      "body": "I met a lady on a dating app. She wanted to move to Whatsapp after a while. I didn't think anything of it.     We talked for a while, shared values. Seemed like a good time over all! We were in agreement with what our values were. Unfortunately, she was in singapore right now, so we were just chatting. Her timing seemed to line up with how she was texting at those times.     I grew a little wary once she started talking about her investments, and her goal for going from $400k USD to $1m USD. Odd, but whatever. I live in a large city in California. I guessed she was a business kind of person. I steered the conversation back to romance, and it was amicable for a bit.     She started getting really insistent about doing a video call. I figured why not? Let's put a proper face behind the name. We had the same values, so it made sense. We were on call for about 2 minutes, before she suddenly had to take another call.     She then started getting *really*, I mean **REALLY** insistent on helping me out with some trading stocks. She would 'give me a signal once her financial advisor did', and we would trade at the same time.     She sent me a screenshot detailing a +$3k trade. I was giving it the side-eye, and then she started helping getting me set up on Cash App.     The whole thing wasn't smelling right.     1. The sudden pivot to this investment stuff    2. Cash app    3. The picture she showed with +money didn't add up. It was a trade on DASHUSDT, showing an opening price of",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "app",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "none",
+        "amount_mentioned": "$3000",
+        "currency": "USD",
+        "urgency_level": 0.5
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 2,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.5
+      },
+      "reasoning": {
+        "primary_evidence": "The sudden pivot to investment talk, the request for a video call, and the insistence on helping with trading.",
+        "uncertainty_notes": "None."
+      }
+    }
+  },
+  "v4_currency_fix:1qc6jm8": {
+    "post_metadata": {
+      "post_id": "1qc6jm8",
+      "subreddit": "ScamCenter",
+      "title": "Myiq is a scammer.",
+      "body": "This site will take your money and not return it. They say they will, but they will continue to ask for the same piece of information over and over again hoping that you will quit. It must be a bot and a terrible one at that. Don't give money to this site.",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 1,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi",
+        "fraud_channel": "website",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "none",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.9
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 9,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "This site will take your money and not return it.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qlrvo2": {
+    "post_metadata": {
+      "post_id": "1qlrvo2",
+      "subreddit": "Scams",
+      "title": "trusting an online 'artist' and depositing a fake check",
+      "body": "This didn't happen today, but recently enough that I'm still dealing with the consequences.    I was contacted online by someone who claimed to be an artist and asked if they could use my picture as a reference for artwork. They said they'd pay me $350, which honestly sounded harmless enough. We agreed, and I sent them the picture.    Here's where I messed up.    They said they would pay me by check and emailed me an image of the check, asking me to deposit it through my bank's mobile app. The check, however, was for $1,500, not $350. When I questioned it, they said it was a 'mistake' and asked me to refund the extra balance after depositing it.    Like an absolute idiot, I deposited the check.    The funds showed up in my account, so I believed it was real. I refunded the remaining balance to them, keeping only the $350 we agreed on. A few days later, my bank notified me that the check was fraudulent and had bounced.    Now my account is deep in the negative, I'm responsible for the full amount, and the scammer is long gone. No artwork, no payment, just debt and regret.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "transaction",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 1,
+        "transaction_bank_transfer": 1,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 1,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "bank",
+        "fraud_channel": "email",
+        "victim_action": "deposited_check",
+        "request_type": "payment",
+        "impersonated_entity": "artist",
+        "amount_mentioned": "$1,500",
+        "currency": "USD",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 3,
+        "not_scam_claims": 0,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The check was for $1,500 and the victim deposited it, believing it was real.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1lommui": {
+    "post_metadata": {
+      "post_id": "1lommui",
+      "subreddit": "ScamCenter",
+      "title": "Are KSE systems trustworthy?",
+      "body": "Hello everyone, I'm happy to have stumbled upon this subreddit while I've been submitting applications to numerous positions on Indeed. I'm wondering about the legitimacy of KSE systems. They have scheduled an interview for tomorrow morning and I'm debating whether it's worth waking up early and preparing for.",
+      "num_comments": 1
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "upi | card | bank | crypto | gift_card | unknown | none",
+        "fraud_channel": "sms | email | phone | social_media | website | app | unknown | none",
+        "victim_action": "sent_money | shared_credentials | clicked_link | installed_app | none | unknown",
+        "request_type": "payment | verification | login | download | none | unknown",
+        "impersonated_entity": "bank | government | company | individual | none | unknown",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 1,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "low",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": null,
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1lfg1ut": {
+    "post_metadata": {
+      "post_id": "1lfg1ut",
+      "subreddit": "FraudPrevention",
+      "title": "Beware: my deceptive experience with iq-academy",
+      "body": "I'm dropping this here to vent and warn you all about my awful experience with IQ-Academy.org. I'm usually pretty good at spotting scams, but this one slipped through, and I'm mad about it. Hopefully, this saves someone else from the same headache.    I signed up for their 'courses' after getting sucked in by their polished website and big promises of certifications. Huge mistake. The first red-flag was their sketchy payment system - shady pressure to pay upfront with a refund policy that's basically nonexistent. It felt manipulative, but I ignored my gut and paid. That's when it all fell apart.    The content was a total joke - random, low-quality stuff that looked like it was scraped from the web. The 'instructors'? Either fake or completely unresponsive. I reached out for support - pure noassistance. Their customer service is untrustworthy, tossing out vague replies that answered nothing. When I pushed for a refund, they ghosted me.    After this disaster, I checked reviews (wish I'd done it sooner), and it's a mess - people everywhere calling it fraudulent, deceptive, and a straight-up scam. Some even mentioned suspicious charges post-signup. I used a virtual card, thankfully, but this whole thing feels so illegitimate.    So, here's my caution: stay far away from IQ-Academy.org. It's a waste of money and time. Anyone else deal with this site or similar dodgy schemes? Curious how you handled it or if there's a solid way to report this abuse. Stay vigilant - this one's a m",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "commerce",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 1,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 1,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "card",
+        "fraud_channel": "website",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "company",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 9,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.5
+      },
+      "reasoning": {
+        "primary_evidence": "sketchy payment system, low-quality content, unresponsive instructors, and ghosted refund request",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qbi8i0": {
+    "post_metadata": {
+      "post_id": "1qbi8i0",
+      "subreddit": "Scams",
+      "title": "[US] My dad is being romance scammed by a Ghanaian woman",
+      "body": "Tl;Dr- my dad is being romance scammed by a Ghanaian woman who is luring him into the country for reasons I cannot determine and dread to discover.    I apologize for using an unpopulated throwaway account for this. My other one is too recognizable. Basically\u2026 My dad [70] lost both my mom, his wife of 60 years, and his own mother this year. He started seeking out friendship and a relationship online about a month ago (barely three months after my mom passed) and is now planning on flying to Ghana to meet this woman. I am afraid of what the actual end goal is, if he will be in danger, and whether or not I will ever see him again if he leaves to go meet these strangers whose story I simply do not believe.",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.9,
+      "fraud_type": "social_engineering",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 1,
+        "social_urgency_scam": 1,
+        "meta_victim_story": 1,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "social_media",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "individual",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 1.0
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 9,
+        "not_scam_claims": 1,
+        "advice_requests": 2
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The post describes a romance scam involving a Ghanaian woman who is luring the victim's father into the country for reasons that are not clear.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1q8s07o": {
+    "post_metadata": {
+      "post_id": "1q8s07o",
+      "subreddit": "phishing",
+      "title": "Got a call from a Indian scammer spoofed number and left a chilling voicemail",
+      "body": "got a random call from a spoofed number claiming to be coegco internet (which I'm with so I know the difference.) I am a tech support technician graduate so I know what to look for. I googled the number to see if it was a actual business (which it wasn't) so I block scam caller and block number.    However, I blocked that number yesterday (first time they called). Then today I received a voicemail from the same blocked number. The creepy part is my cellphone is out and randomly got a voicemail as my phone is disconnected.     The voicemail was this: **Long pause and then laughter and then long pause and then said (while laughing evilly) I got it (Indian accent)**    Anyone else have similar issues with this or should I be worried about being hacked. I removed my SIM card right away but I'm spooked.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "social_engineering",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 1,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 1,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "phone",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "unknown",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.8
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 1,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 2,
+        "not_scam_claims": 1,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "high",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The post describes a call from an unknown number claiming to be a legitimate business and then leaving a chilling voicemail with laughter.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qo8chl": {
+    "post_metadata": {
+      "post_id": "1qo8chl",
+      "subreddit": "Scams",
+      "title": "Is this a scam? This comes from Facebook Marketplace",
+      "body": "I was interested in buying a game on Facebook Marketplace and I contacted the seller and they responded almost instantly. Upon asking for images of the cartridge and a pic of the game being able to open, they sent it, but got a bit defensive saying they don't sell messed up games and to check their reviews. I didn'tsee any reviews on their page except that they only sold 6 listings on there.     I went to pay for it on Facebook's buy option and it didn't work loading my card. I tried using Paypal to get it to go through and that didn't work either. I asked the seller about it to troubleshoot, and they said they take either Venmo or Cashapp and didn't answer my question.     When they would respond to my messages, sometimes they would make grammar errors like 'I don't like bargain' type stuff too. I just want to know if this is a scam or a red flag for one.     Edit: Thanks, everyone. I didn't continue with the buy. I blocked and reported the seller and didn't use my venmo or buy anything through them. I have rechecked and refixed my account to where no scammer or hacker can get in just to be on the safe side.    I posted this because I saw the red flags of a scammer and asked you guys to confirm to be on the safe side. Very very glad I did because I would have been suckered out of my money. Thank you again!",
+      "num_comments": 10
+    },
+    "annotation": {
+      "is_fraud": 1,
+      "fraud_confidence": 0.8,
+      "fraud_type": "commerce",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 1,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 1,
+        "commerce_fake_seller": 1,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "card",
+        "fraud_channel": "website",
+        "victim_action": "sent_money",
+        "request_type": "payment",
+        "impersonated_entity": "company",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.5
+      },
+      "psychological_tactics": {
+        "urgency": 1,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 10,
+        "scam_confirmations": 8,
+        "not_scam_claims": 2,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.5
+      },
+      "reasoning": {
+        "primary_evidence": "The seller was hesitant to provide images of the game and made grammar errors in their messages.",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qapy6i": {
+    "post_metadata": {
+      "post_id": "1qapy6i",
+      "subreddit": "IsThisAScamIndia",
+      "title": "I don't have an ICICI bank account. Can this be a scam?",
+      "body": "Is this a genuine message or just a random scam message? I have never had a bank account in ICICI bank. And I have recieved this message on my private number that hardly 10 people know.",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {
+        "transaction_upi_fraud": 0,
+        "transaction_card_fraud": 0,
+        "transaction_bank_transfer": 0,
+        "commerce_nondelivery": 0,
+        "commerce_fake_seller": 0,
+        "credential_phishing": 0,
+        "social_authority_scam": 0,
+        "social_urgency_scam": 0,
+        "meta_victim_story": 0,
+        "meta_fraud_question": 0
+      },
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "sms",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "bank",
+        "amount_mentioned": null,
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 2,
+        "not_scam_claims": 3,
+        "advice_requests": 1
+      },
+      "label_quality": {
+        "confidence_bucket": "medium",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "ICICI bank message",
+        "uncertainty_notes": null
+      }
+    }
+  },
+  "v4_currency_fix:1qpczqe": {
+    "post_metadata": {
+      "post_id": "1qpczqe",
+      "subreddit": "IsThisAScamIndia",
+      "title": "Trying to set up car insurance and the rep keeps giving me wrong urls",
+      "body": "Not sure if this is just a mistake and I'm looking to much into it but this person claiming to represent a branch of statefarm but the link they send me to review my quote is for a random website not related to statefarm at all and is in german I believe. Just want some other thoughts I have already mostly wrote it off and started looking elsewhere.",
+      "num_comments": 2
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "website",
+        "victim_action": "clicked_link",
+        "request_type": "quote",
+        "impersonated_entity": "statefarm",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 1,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 2,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "low",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "The post describes a suspicious interaction with an insurance representative who provided a wrong link.",
+        "uncertainty_notes": ""
+      }
+    }
+  },
+  "v4_currency_fix:1qojx16": {
+    "post_metadata": {
+      "post_id": "1qojx16",
+      "subreddit": "phishing",
+      "title": "Scam calls using real sounding voice prompts before redirecting",
+      "body": "A friend of mine was telling me about a weird scam call they have been getting lately and it honestly sounded a little too familiar. The call starts off sounding completely normal. Not the usual robotic voice, but an actual human sounding message asking them to press a number to continue. It feels intentional, like it is meant to make you trust it before anything sketchy happens.    Once they pressed the number, the call redirected and that is where things got obviously scammy. The system suddenly sounded like a real company phone menu, polished wording, clean transitions, the whole thing. They have gotten a few of these recently and what stood out is that the scripts were almost identical, but each time it claimed to be a different company. It seems less about stealing info immediately and more about lowering your guard first before pushing you toward a phishing site or a live scammer. My friend started reporting the redirect numbers and sites when possible, but it got them wondering how common this is now. I get similar calls too, maybe once a month or so. Not constantly, but often enough that it does not feel random.    Has anyone else noticed these voice prompt style scams becoming more common lately",
+      "num_comments": 5
+    },
+    "annotation": {
+      "is_fraud": -1,
+      "fraud_confidence": 0.0,
+      "fraud_type": "none",
+      "fraud_labels": {},
+      "key_features": {
+        "payment_method": "unknown",
+        "fraud_channel": "phone",
+        "victim_action": "none",
+        "request_type": "none",
+        "impersonated_entity": "none",
+        "amount_mentioned": "unknown",
+        "currency": "unknown",
+        "urgency_level": 0.0
+      },
+      "psychological_tactics": {
+        "urgency": 0,
+        "fear": 0,
+        "authority": 0,
+        "reward": 0
+      },
+      "community_signals": {
+        "num_comments": 5,
+        "scam_confirmations": 0,
+        "not_scam_claims": 0,
+        "advice_requests": 0
+      },
+      "label_quality": {
+        "confidence_bucket": "low",
+        "usable_for_training": true
+      },
+      "gan_quality": {
+        "suitable_for_gan": false,
+        "quality_score": 0.0
+      },
+      "reasoning": {
+        "primary_evidence": "",
+        "uncertainty_notes": ""
+      }
+    }
   }
 }
