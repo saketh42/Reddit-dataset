@@ -27,7 +27,7 @@ COMMENTS_FILE = os.path.join(BASE_DIR, "comments.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "mistral:7b-instruct-q5_K_M"
+MODEL_NAME = "llama3"
 
 
 REQUESTS_PER_MIN = 25
@@ -39,6 +39,7 @@ CACHE_VERSION = "v4_currency_fix"
 CACHE_FILE = os.path.join(BASE_DIR, "post_annotation_cache.json")
 LOCK_FILE = os.path.join(BASE_DIR, "cache.lock")
 FAILED_POSTS_FILE = os.path.join(BASE_DIR, "failed_posts.txt")
+DEBUG_ERROR_DUMP_FILE = os.path.join(BASE_DIR, "debug_failed_response.txt")
 
 
 
@@ -72,6 +73,29 @@ def is_valid_annotation(obj, expected_post_id):
     if "is_fraud" not in annotation:
         return False
     return True
+
+def normalize_annotation(obj, expected_post_id, post_row, num_comments):
+    if not isinstance(obj, dict):
+        return None
+
+    post_meta = obj.get("post_metadata")
+    if not isinstance(post_meta, dict):
+        post_meta = {}
+
+    post_meta["post_id"] = str(expected_post_id)
+    post_meta.setdefault("subreddit", str(post_row.get("subreddit", "")))
+    post_meta.setdefault("title", str(post_row.get("title", "")))
+    post_meta.setdefault("body", str(post_row.get("body_text", "")))
+    post_meta.setdefault("num_comments", int(num_comments))
+
+    obj["post_metadata"] = post_meta
+
+    annotation = obj.get("annotation")
+    if not isinstance(annotation, dict) or "is_fraud" not in annotation:
+        return None
+
+    obj["annotation"] = annotation
+    return obj
 
 def load_cache():
     if not os.path.exists(CACHE_FILE):
@@ -179,6 +203,20 @@ def safe_json_load(text):
                 pass
                 
     raise ValueError("No JSON found in response")
+
+def append_error_dump(post_id, attempt, stage, detail, raw_text=None):
+    timestamp = datetime.now().isoformat()
+    with open(DEBUG_ERROR_DUMP_FILE, "a", encoding="utf-8") as f:
+        f.write(f"\n---\n")
+        f.write(f"time={timestamp}\n")
+        f.write(f"post_id={post_id}\n")
+        f.write(f"attempt={attempt}\n")
+        f.write(f"stage={stage}\n")
+        f.write(f"detail={detail}\n")
+        if raw_text is not None:
+            f.write("raw=\n")
+            f.write(str(raw_text))
+            f.write("\n")
 
 # ======================================================
 # COMMENT CONTEXT SUMMARY
@@ -360,21 +398,27 @@ def annotate_post(post_row, comments_df):
     annotation = None
     for attempt in range(MAX_RETRIES + 1):
         response = requests.post(OLLAMA_URL, json=payload)
-        raw = response.json()["response"].strip()
+        try:
+            raw = response.json()["response"].strip()
+        except Exception as exc:
+            append_error_dump(post_id, attempt + 1, "response_parse", f"{type(exc).__name__}: {exc}", response.text)
+            print(f"[WARN] Invalid response for post {post_id} (attempt {attempt + 1}). Saved to debug_failed_response.txt")
+            continue
 
         try:
             parsed = safe_json_load(raw)
         except (json.JSONDecodeError, ValueError) as exc:
-            with open("debug_failed_response.txt", "w", encoding="utf-8") as f:
-                f.write(raw)
+            append_error_dump(post_id, attempt + 1, "json_parse", f"{type(exc).__name__}: {exc}", raw)
             print(f"[WARN] Invalid JSON for post {post_id} (attempt {attempt + 1}): {exc}. Saved to debug_failed_response.txt")
             continue
 
-        if not is_valid_annotation(parsed, post_id):
+        normalized = normalize_annotation(parsed, post_id, post_row, context["num_comments"])
+        if not normalized or not is_valid_annotation(normalized, post_id):
+            append_error_dump(post_id, attempt + 1, "schema", "Invalid schema after normalize", raw)
             print(f"[WARN] Invalid schema for post {post_id} (attempt {attempt + 1}).")
             continue
 
-        annotation = parsed
+        annotation = normalized
         break
 
     if annotation is None:

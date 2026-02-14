@@ -3,3 +3,581 @@
 "post_id": "1qevayi",
 "subreddit": "Scams",
 "title": "Healthcare"
+---
+time=2026-02-13T16:22:51.681191
+post_id=1lomzo4
+attempt=1
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1lomzo4",
+    "subreddit": "ScamCenter",
+    "title": "Recently left my position at DevilCorp",
+    "body": "I had just started at a new job that seemed a bit sketchy, with half the building mysteriously empty, only to discover it was a deceptive company.  They lured us in with promises of an 'entry level position to become a marketing manager,' but by the second day, everyone from my orientation had already left once they realized it was just a sales job at Walmart, paying a measly $100 for an 8-hour shift (10 am-6 pm) plus a morning meeting (8 am-10 am). They dangled the carrot of a six-figure management position in just 6 months, but after some online research and questioning, I found out that the top lady in charge had lied during orientation and their reported numbers from last year were totally fabricated, as the company had only started in December!    As I delved deeper, I discovered the true nature of a 'devil corp' and realized I should have educated myself on pyramid schemes and scams before committing to this job. A hard lesson learned, indeed!    Deciding it was my last day in that role, I confronted one of the managers about the shady operation. She initially feigned ignorance about MLMs, devil corps, and pyramid schemes, only to backtrack and claim she was well-versed in the subject, dismissing online information as nonsense. My suspicions continued to mount as I witnessed the constant influx of desperate new hires each week. It was disheartening to see how easily some people can deceive others!    My role entailed selling internet services for Frontier through a company called 'DevilCorp' that seemed suspicious from the start.",
+  "annotation": {
+    "is_fraud": 1,
+    "fraud_confidence": 0.9,
+    "fraud_type": "commerce",
+    "fraud_labels": {
+      "transaction_upi_fraud": 0,
+      "transaction_card_fraud": 0,
+      "transaction_bank_transfer": 0,
+      "commerce_nondelivery": 1,
+      "commerce_fake_seller": 1,
+      "credential_phishing": 0,
+      "social_authority_scam": 0,
+      "social_urgency_scam": 0,
+      "meta_victim_story": 0,
+      "meta_fraud_question": 0
+    },
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "unknown",
+      "victim_action": "none",
+      "request_type": "none",
+      "impersonated_entity": "company",
+      "amount_mentioned": null,
+      "currency": "unknown",
+      "urgency_level": 0.5
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 0,
+      "authority": 1,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 0,
+      "scam_confirmations": 0,
+      "not_scam_claims": 0,
+      "advice_requests": 0
+    },
+    "label_quality": {
+      "confidence_bucket": "high",
+      "usable_for_training": true
+    },
+    "gan_quality": {
+      "suitable_for_gan": false,
+      "quality_score": 0.8
+    },
+    "reasoning": {
+      "primary_evidence": "The company's suspicious nature and lack of transparency led to the realization that it was a deceptive operation.",
+      "uncertainty_notes": null
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T16:31:05.664457
+post_id=1qgn9vl
+attempt=1
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1qgn9vl",
+    "subreddit": "CryptoScams",
+    "title": "Are global trust helping my dad retrieve his scammed money or trying to scam him?",
+    "body": "About 10 weeks ago I went to town with my dad and he went to the bank while I did an errand. However he ended up being a huge amount of time in the bank. Eventually I went in to the bank to get him. A staff member told me that he was with the branch manager, and brought me to that office. When the staff member opened the door it seemed like they're meeting had just come to an end, but I could tell that it was an awkward end and the branch manager looked displeased. My dad said that it was something to do with crypto and that the manager advised against it. I knew there had to be more.    The day after this I got a call from a policeman. He basically said that they can't seem to talk sense into my dad that these people are trying to scam him. He said they're definitely scammers and that they see it all the time. I told my dad about the phone call and he insisted that he knew what he was doing. He also told me that the branch manager put a block on his account from being able to make transfers. I think the name of the scamming company was Falcon something or other. He said something like that it's still showing in his account but he can't access it.    Since then my dad has been taking very long phone calls from Global Trust (probably averages once a week) who are apparently trying to help him get the money back. It's the same guy who rings and he always rings the landline first. My dad says he prefers to ring the landline saying that it's more secure... as in acting as if there is something wrong with the mobile phone.",
+  "annotation": {
+    "is_fraud": 1,
+    "fraud_confidence": 0.9,
+    "fraud_type": "social_engineering",
+    "fraud_labels": {
+      "transaction_upi_fraud": 0,
+      "transaction_card_fraud": 0,
+      "transaction_bank_transfer": 0,
+      "commerce_nondelivery": 0,
+      "commerce_fake_seller": 0,
+      "credential_phishing": 0,
+      "social_authority_scam": 1,
+      "social_urgency_scam": 0,
+      "meta_victim_story": 0,
+      "meta_fraud_question": 0
+    },
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "phone",
+      "victim_action": "sent_money",
+      "request_type": "payment",
+      "impersonated_entity": "company",
+      "amount_mentioned": null,
+      "currency": "unknown",
+      "urgency_level": 0.8
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 0,
+      "authority": 1,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 5,
+      "scam_confirmations": 4,
+      "not_scam_claims": 1,
+      "advice_requests": 2
+    },
+    "label_quality": {
+      "confidence_bucket": "high",
+      "usable_for_training": true
+    },
+    "gan_quality": {
+      "suitable_for_gan": false,
+      "quality_score": 0.7
+    },
+    "reasoning": {
+      "primary_evidence": "The policeman's statement and the Global Trust's actions are indicative of a scam.",
+      "uncertainty_notes": null
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T16:37:08.130299
+post_id=1lomzo4
+attempt=2
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1lomzo4",
+    "subreddit": "ScamCenter",
+    "title": "Recently left my position at DevilCorp",
+    "body": "I had just started at a new job that seemed a bit sketchy, with half the building mysteriously empty, only to discover it was a deceptive company.  They lured us in with promises of an 'entry level position to become a marketing manager,' but by the second day, everyone from my orientation had already left once they realized it was just a sales job at Walmart, paying a measly $100 for an 8-hour shift (10 am-6 pm) plus a morning meeting (8 am-10 am). They dangled the carrot of a six-figure management position in just 6 months, but after some online research and questioning, I found out that the top lady in charge had lied during orientation and their reported numbers from last year were totally fabricated, as the company had only started in December!    As I delved deeper, I discovered the true nature of a 'devil corp' and realized I should have educated myself on pyramid schemes and scams before committing to this job. A hard lesson learned, indeed!    Deciding it was my last day in that role, I confronted one of the managers about the shady operation. She initially feigned ignorance about MLMs, devil corps, and pyramid schemes, only to backtrack and claim she was well-versed in the subject, dismissing online information as nonsense. My suspicions continued to mount as I witnessed the constant influx of desperate new hires each week. It was disheartening to see how easily some people can deceive others!    My role entailed selling internet services for Frontier through a company called 'DevilCorp' that seemed suspicious from the start.",
+  "annotation": {
+    "is_fraud": 1,
+    "fraud_confidence": 0.9,
+    "fraud_type": "commerce",
+    "fraud_labels": {
+      "transaction_upi_fraud": 0,
+      "transaction_card_fraud": 0,
+      "transaction_bank_transfer": 0,
+      "commerce_nondelivery": 1,
+      "commerce_fake_seller": 1,
+      "credential_phishing": 0,
+      "social_authority_scam": 0,
+      "social_urgency_scam": 0,
+      "meta_victim_story": 0,
+      "meta_fraud_question": 0
+    },
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "unknown",
+      "victim_action": "none",
+      "request_type": "none",
+      "impersonated_entity": "company",
+      "amount_mentioned": null,
+      "currency": "unknown",
+      "urgency_level": 0.5
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 0,
+      "authority": 1,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 0,
+      "scam_confirmations": 0,
+      "not_scam_claims": 0,
+      "advice_requests": 0
+    },
+    "label_quality": {
+      "confidence_bucket": "high",
+      "usable_for_training": true
+    },
+    "gan_quality": {
+      "suitable_for_gan": false,
+      "quality_score": 0.8
+    },
+    "reasoning": {
+      "primary_evidence": "The company's suspicious nature and lack of transparency led to the realization that it was a deceptive operation.",
+      "uncertainty_notes": null
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T16:39:36.868369
+post_id=1qnao6y
+attempt=1
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1qnao6y",
+    "subreddit": "LegalAdviceIndia",
+    "title": "Property in heirs' name after loan repayment — original occupants refusing to vacate",
+    "body": "Around 2012, my father, one individual (X), and another intermediary (Y) needed money and arranged multiple bank loans (₹6 lakh + ₹3 lakh + ₹3 lakh). The loans were taken in my mother's and father's names, using my mother's salary slip (both were government employees). For securing the loans, a house and plot belonging to X were transferred into my father's name and mortgaged to the bank.    A major portion of the loan amount (around ₹6 lakh) was taken by Y, who later disappeared. After this, X refused to repay the loan or contribute any amount. My mother was not fully aware at the time that she had signed loan documents; she later came to know about the loan only when the bank contacted her stating that no repayments had been made and threatened to escalate the matter to her department and initiate legal action, including warning that she could face serious consequences if the dues were not cleared.    Fearing loss of employment and legal consequences, my mother somehow arranged money and paid an initial amount of around ₹2 lakh and thereafter continued repaying the loan from her own salary over the years. During this time, we repeatedly contacted X requesting repayment or at least partial contribution, but X consistently stated that he had no money and refused to pay even a small amount. Ultimately, my mother repaid the entire loan amount. X and his family did not pay even ₹10,000 at any point.    Despite this, X later filed a complaint against my father alleging that my fa",
+  "annotation": {
+    "is_fraud": -1,
+    "fraud_confidence": 0.5,
+    "fraud_type": "none",
+    "fraud_labels": {},
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "unknown",
+      "victim_action": "sent_money",
+      "request_type": "unknown",
+      "impersonated_entity": "individual",
+      "amount_mentioned": 6,
+      "currency": "unknown",
+      "urgency_level": 0.5
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 1,
+      "authority": 0,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 2,
+      "scam_confirmations": 0,
+      "not_scam_claims": 0,
+      "advice_requests": 0
+    },
+    "label_quality": {
+      "confidence_bucket": "medium",
+      "usable_for_training": false
+    },
+    "gan_quality": {
+      "suitable_for_gan": true,
+      "quality_score": 0.5
+    },
+    "reasoning": {
+      "primary_evidence": "The post describes a situation where the original occupants refused to vacate despite the loan being repaid.",
+      "uncertainty_notes": "Uncertainty around whether this is a scam or not."
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T16:46:09.881536
+post_id=1qgn9vl
+attempt=2
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1qgn9vl",
+    "subreddit": "CryptoScams",
+    "title": "Are global trust helping my dad retrieve his scammed money or trying to scam him?",
+    "body": "About 10 weeks ago I went to town with my dad and he went to the bank while I did an errand. However he ended up being a huge amount of time in the bank. Eventually I went in to the bank to get him. A staff member told me that he was with the branch manager, and brought me to that office. When the staff member opened the door it seemed like they're meeting had just come to an end, but I could tell that it was an awkward end and the branch manager looked displeased. My dad said that it was something to do with crypto and that the manager advised against it. I knew there had to be more.    The day after this I got a call from a policeman. He basically said that they can't seem to talk sense into my dad that these people are trying to scam him. He said they're definitely scammers and that they see it all the time. I told my dad about the phone call and he insisted that he knew what he was doing. He also told me that the branch manager put a block on his account from being able to make transfers. I think the name of the scamming company was Falcon something or other. He said something like that it's still showing in his account but he can't access it.    Since then my dad has been taking very long phone calls from Global Trust (probably averages once a week) who are apparently trying to help him get the money back. It's the same guy who rings and he always rings the landline first. My dad says he prefers to ring the landline saying that it's more secure... as in acting as if there is something wrong with the mobile phone.",
+  "annotation": {
+    "is_fraud": 1,
+    "fraud_confidence": 0.9,
+    "fraud_type": "social_engineering",
+    "fraud_labels": {
+      "transaction_upi_fraud": 0,
+      "transaction_card_fraud": 0,
+      "transaction_bank_transfer": 0,
+      "commerce_nondelivery": 0,
+      "commerce_fake_seller": 0,
+      "credential_phishing": 0,
+      "social_authority_scam": 1,
+      "social_urgency_scam": 0,
+      "meta_victim_story": 0,
+      "meta_fraud_question": 0
+    },
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "phone",
+      "victim_action": "sent_money",
+      "request_type": "payment",
+      "impersonated_entity": "company",
+      "amount_mentioned": null,
+      "currency": "unknown",
+      "urgency_level": 0.8
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 0,
+      "authority": 1,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 5,
+      "scam_confirmations": 4,
+      "not_scam_claims": 1,
+      "advice_requests": 2
+    },
+    "label_quality": {
+      "confidence_bucket": "high",
+      "usable_for_training": true
+    },
+    "gan_quality": {
+      "suitable_for_gan": false,
+      "quality_score": 0.7
+    },
+    "reasoning": {
+      "primary_evidence": "The policeman's statement and the Global Trust's actions are indicative of a scam.",
+      "uncertainty_notes": null
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T16:52:06.830130
+post_id=1lomzo4
+attempt=3
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1lomzo4",
+    "subreddit": "ScamCenter",
+    "title": "Recently left my position at DevilCorp",
+    "body": "I had just started at a new job that seemed a bit sketchy, with half the building mysteriously empty, only to discover it was a deceptive company.  They lured us in with promises of an 'entry level position to become a marketing manager,' but by the second day, everyone from my orientation had already left once they realized it was just a sales job at Walmart, paying a measly $100 for an 8-hour shift (10 am-6 pm) plus a morning meeting (8 am-10 am). They dangled the carrot of a six-figure management position in just 6 months, but after some online research and questioning, I found out that the top lady in charge had lied during orientation and their reported numbers from last year were totally fabricated, as the company had only started in December!    As I delved deeper, I discovered the true nature of a 'devil corp' and realized I should have educated myself on pyramid schemes and scams before committing to this job. A hard lesson learned, indeed!    Deciding it was my last day in that role, I confronted one of the managers about the shady operation. She initially feigned ignorance about MLMs, devil corps, and pyramid schemes, only to backtrack and claim she was well-versed in the subject, dismissing online information as nonsense. My suspicions continued to mount as I witnessed the constant influx of desperate new hires each week. It was disheartening to see how easily some people can deceive others!    My role entailed selling internet services for Frontier through a company called 'DevilCorp' that seemed suspicious from the start.",
+  "annotation": {
+    "is_fraud": 1,
+    "fraud_confidence": 0.9,
+    "fraud_type": "commerce",
+    "fraud_labels": {
+      "transaction_upi_fraud": 0,
+      "transaction_card_fraud": 0,
+      "transaction_bank_transfer": 0,
+      "commerce_nondelivery": 1,
+      "commerce_fake_seller": 1,
+      "credential_phishing": 0,
+      "social_authority_scam": 0,
+      "social_urgency_scam": 0,
+      "meta_victim_story": 0,
+      "meta_fraud_question": 0
+    },
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "none",
+      "victim_action": "shared_credentials",
+      "request_type": "none",
+      "impersonated_entity": "company",
+      "amount_mentioned": null,
+      "currency": "unknown",
+      "urgency_level": 0.5
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 0,
+      "authority": 1,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 0,
+      "scam_confirmations": 0,
+      "not_scam_claims": 0,
+      "advice_requests": 0
+    },
+    "label_quality": {
+      "confidence_bucket": "high",
+      "usable_for_training": true
+    },
+    "gan_quality": {
+      "suitable_for_gan": false,
+      "quality_score": 0.8
+    },
+    "reasoning": {
+      "primary_evidence": "The company's suspicious nature and lack of transparency led to the realization that it was a deceptive operation.",
+      "uncertainty_notes": null
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T16:54:30.302346
+post_id=1qnao6y
+attempt=2
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1qnao6y",
+    "subreddit": "LegalAdviceIndia",
+    "title": "Property in heirs' name after loan repayment — original occupants refusing to vacate",
+    "body": "Around 2012, my father, one individual (X), and another intermediary (Y) needed money and arranged multiple bank loans (₹6 lakh + ₹3 lakh + ₹3 lakh). The loans were taken in my mother's and father's names, using my mother's salary slip (both were government employees). For securing the loans, a house and plot belonging to X were transferred into my father's name and mortgaged to the bank.    A major portion of the loan amount (around ₹6 lakh) was taken by Y, who later disappeared. After this, X refused to repay the loan or contribute any amount. My mother was not fully aware at the time that she had signed loan documents; she later came to know about the loan only when the bank contacted her stating that no repayments had been made and threatened to escalate the matter to her department and initiate legal action, including warning that she could face serious consequences if the dues were not cleared.    Fearing loss of employment and legal consequences, my mother somehow arranged money and paid an initial amount of around ₹2 lakh and thereafter continued repaying the loan from her own salary over the years. During this time, we repeatedly contacted X requesting repayment or at least partial contribution, but X consistently stated that he had no money and refused to pay even a small amount. Ultimately, my mother repaid the entire loan amount. X and his family did not pay even ₹10,000 at any point.    Despite this, X later filed a complaint against my father alleging that my fa",
+  "annotation": {
+    "is_fraud": -1,
+    "fraud_confidence": 0.5,
+    "fraud_type": "none",
+    "fraud_labels": {},
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "unknown",
+      "victim_action": "sent_money",
+      "request_type": "unknown",
+      "impersonated_entity": "individual",
+      "amount_mentioned": 6,
+      "currency": "unknown",
+      "urgency_level": 0.5
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 1,
+      "authority": 0,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 2,
+      "scam_confirmations": 0,
+      "not_scam_claims": 0,
+      "advice_requests": 0
+    },
+    "label_quality": {
+      "confidence_bucket": "medium",
+      "usable_for_training": false
+    },
+    "gan_quality": {
+      "suitable_for_gan": true,
+      "quality_score": 0.5
+    },
+    "reasoning": {
+      "primary_evidence": "The post describes a situation where the original occupants refused to vacate despite the loan being repaid.",
+      "uncertainty_notes": "Uncertainty around whether this is a scam or not."
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T17:00:36.377741
+post_id=1qgn9vl
+attempt=3
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1qgn9vl",
+    "subreddit": "CryptoScams",
+    "title": "Are global trust helping my dad retrieve his scammed money or trying to scam him?",
+    "body": "About 10 weeks ago I went to town with my dad and he went to the bank while I did an errand. However he ended up being a huge amount of time in the bank. Eventually I went in to the bank to get him. A staff member told me that he was with the branch manager, and brought me to that office. When the staff member opened the door it seemed like they're meeting had just come to an end, but I could tell that it was an awkward end and the branch manager looked displeased. My dad said that it was something to do with crypto and that the manager advised against it. I knew there had to be more.    The day after this I got a call from a policeman. He basically said that they can't seem to talk sense into my dad that these people are trying to scam him. He said they're definitely scammers and that they see it all the time. I told my dad about the phone call and he insisted that he knew what he was doing. He also told me that the branch manager put a block on his account from being able to make transfers. I think the name of the scamming company was Falcon something or other. He said something like that it's still showing in his account but he can't access it.    Since then my dad has been taking very long phone calls from Global Trust (probably averages once a week) who are apparently trying to help him get the money back. It's the same guy who rings and he always rings the landline first. My dad says he prefers to ring the landline saying that it's more secure... as in acting as if there is something wrong with the mobile phone.",
+  "annotation": {
+    "is_fraud": 1,
+    "fraud_confidence": 0.9,
+    "fraud_type": "social_engineering",
+    "fraud_labels": {
+      "transaction_upi_fraud": 0,
+      "transaction_card_fraud": 0,
+      "transaction_bank_transfer": 0,
+      "commerce_nondelivery": 0,
+      "commerce_fake_seller": 0,
+      "credential_phishing": 0,
+      "social_authority_scam": 1,
+      "social_urgency_scam": 0,
+      "meta_victim_story": 0,
+      "meta_fraud_question": 0
+    },
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "phone",
+      "victim_action": "sent_money",
+      "request_type": "payment",
+      "impersonated_entity": "company",
+      "amount_mentioned": null,
+      "currency": "unknown",
+      "urgency_level": 0.8
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 0,
+      "authority": 1,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 5,
+      "scam_confirmations": 4,
+      "not_scam_claims": 1,
+      "advice_requests": 2
+    },
+    "label_quality": {
+      "confidence_bucket": "high",
+      "usable_for_training": true
+    },
+    "gan_quality": {
+      "suitable_for_gan": false,
+      "quality_score": 0.7
+    },
+    "reasoning": {
+      "primary_evidence": "The policeman's statement and the Global Trust's actions are indicative of a scam.",
+      "uncertainty_notes": null
+    }
+  }
+} 
+
+}
+
+---
+time=2026-02-13T17:09:27.361369
+post_id=1qnao6y
+attempt=3
+stage=schema
+detail=Invalid schema after normalize
+raw=
+{
+  "post_metadata": {
+    "post_id": "1qnao6y",
+    "subreddit": "LegalAdviceIndia",
+    "title": "Property in heirs' name after loan repayment — original occupants refusing to vacate",
+    "body": "Around 2012, my father, one individual (X), and another intermediary (Y) needed money and arranged multiple bank loans (₹6 lakh + ₹3 lakh + ₹3 lakh). The loans were taken in my mother's and father's names, using my mother's salary slip (both were government employees). For securing the loans, a house and plot belonging to X were transferred into my father's name and mortgaged to the bank.    A major portion of the loan amount (around ₹6 lakh) was taken by Y, who later disappeared. After this, X refused to repay the loan or contribute any amount. My mother was not fully aware at the time that she had signed loan documents; she later came to know about the loan only when the bank contacted her stating that no repayments had been made and threatened to escalate the matter to her department and initiate legal action, including warning that she could face serious consequences if the dues were not cleared.    Fearing loss of employment and legal consequences, my mother somehow arranged money and paid an initial amount of around ₹2 lakh and thereafter continued repaying the loan from her own salary over the years. During this time, we repeatedly contacted X requesting repayment or at least partial contribution, but X consistently stated that he had no money and refused to pay even a small amount. Ultimately, my mother repaid the entire loan amount. X and his family did not pay even ₹10,000 at any point.    Despite this, X later filed a complaint against my father alleging that my fa",
+  "annotation": {
+    "is_fraud": -1,
+    "fraud_confidence": 0.5,
+    "fraud_type": "none",
+    "fraud_labels": {},
+    "key_features": {
+      "payment_method": "unknown",
+      "fraud_channel": "unknown",
+      "victim_action": "sent_money",
+      "request_type": "unknown",
+      "impersonated_entity": "individual",
+      "amount_mentioned": 6,
+      "currency": "unknown",
+      "urgency_level": 0.5
+    },
+    "psychological_tactics": {
+      "urgency": 1,
+      "fear": 1,
+      "authority": 0,
+      "reward": 0
+    },
+    "community_signals": {
+      "num_comments": 2,
+      "scam_confirmations": 0,
+      "not_scam_claims": 0,
+      "advice_requests": 0
+    },
+    "label_quality": {
+      "confidence_bucket": "medium",
+      "usable_for_training": false
+    },
+    "gan_quality": {
+      "suitable_for_gan": true,
+      "quality_score": 0.5
+    },
+    "reasoning": {
+      "primary_evidence": "The post describes a situation where the original occupants refused to vacate despite the loan being repaid.",
+      "uncertainty_notes": "Uncertainty around whether this is a scam or not."
+    }
+  }
+} 
+
+}
