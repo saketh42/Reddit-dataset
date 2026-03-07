@@ -18,3 +18,8 @@
 1qknd47 - 2026-02-14 16:58:50.986392 - HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
 1ls3vyp - 2026-02-14 16:58:55.027394 - HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
 1q9e4l8 - 2026-02-14 16:58:59.062668 - HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+1qfj28u - 2026-02-15 14:52:53.243917 - Failed to get valid JSON for post 1qfj28u after retries
+1qegqet - 2026-02-15 15:11:15.576358 - Failed to get valid JSON for post 1qegqet after retries
+1qegqet - 2026-02-15 16:34:54.517420 - Failed to get valid JSON for post 1qegqet after retries
+1qfj28u - 2026-02-15 16:39:45.299467 - Failed to get valid JSON for post 1qfj28u after retries
+1qegqet - 2026-02-15 16:56:19.225123 - Failed to get valid JSON for post 1qegqet after retries
